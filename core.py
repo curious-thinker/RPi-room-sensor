@@ -6,8 +6,7 @@ This is the main executable for Project Exhale
 
 ##################################################
 
-Programmer: Steve Manzo
-Contact: smmanzo@gmail.com
+Programmer: Steve 
 Version: 0.1
 Updated: 3/27/2020
 
