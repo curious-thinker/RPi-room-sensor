@@ -6,10 +6,11 @@ import sqlite3
 api_key=''
 
 con = sqlite3.connect("core/core.db")
-df = pd.read_sql_query("SELECT * from sensordata", con)
+
 
 
 def sender():
+    df = pd.read_sql_query("SELECT * from sensordata", con)
     data = df.tail(1).values.astype(str)
     temp = data[0][2]
     humidity = data[0][3]
